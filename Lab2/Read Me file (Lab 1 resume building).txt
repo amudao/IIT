@@ -1,0 +1,38 @@
+Read Me file for Lab 1
+
+Title: Building a one-page resume using HTMl and CSS
+
+The purpose of this project/lab is to build a resume that will be ued in the future for job and internship searches.  The resume is meant to serve as
+
+a means of advertisement to future employers. The resume contains past work experience, skills, education and other items to make me stand out among others.
+
+
+The process that I used when working on this resume was that I worked on the HTML part first thentried implementing the CSS parts.
+
+I did this because to me the HTML tags or aspects was a lot easier to understand and manipulate for a first time user. The HTMl were kinda straight foward 
+and less dauting or all over the place. Even though the HTMl aspect was still easier I had a lot of trouble using it also because I had to study a lot of it first.
+
+using resources like youtube and websites like w3schools made it a little bit easier.
+
+I started by just taking all my information fro my regular word-document resume and began to transfer it into html.  This process kinda gave me the idea or process of what I 
+needed to do to make the resume pretty and clean.
+
+Like I stated before the CSS part was dificult because it was daunting to use but after multiple tries I was able to barely get the hang of it.
+
+Lab 2 made me figure out that a lot of work goes into making website and apps. Just making a one-page resume was difficult, I can't really imagine what goes into 
+keeping Google up and running every single day.
+
+My Thougt on Lab 2
+
+I really enjoyed working on lab 2 because it was a lot more hands-on and more interactive if that makes any sense. I was able to see my progress, mistakes 
+
+and things I needed to improve in real-time. Every second spent coding was fun but extreemelly stressful. 
+
+My only qualm or negativive reaction to lab 2 was that it was a massive jump from lab 1. Lab 1 was kinda of different from what I expected when I first started the class
+but the level of difficalty was what I expected. However, for lab 2 the scope jumped massively, it was doable but from a newcomer's perspective the spike was totally unexpected.
+
+Because this class was called an intro class I thought the pace would be a lot slower but not hold the student hand kinda level, but still enough for student to not feel overwhemed.
+
+Overall fun and educative Lab, can't wait to build my own website and work on other projects in this class.
+
+

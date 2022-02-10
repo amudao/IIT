@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyResume</title>
+
+    <style>
+        /* HORIZONTAL LINES */
+        hr {
+            background-color: lightblue;
+            width: 100%;
+            height: 5px;
+            margin: 0%;
+        }
+
+        /* FOR NAME BLOCK  */
+        .Name {
+            display: block;
+            font-size: 30px;
+            line-height: 80px;
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 500;
+        }
+
+        .h3 {
+            text-align: center;
+        }
+
+        .contactInfo {
+            display: inline-block;
+
+        }
+
+        .contactInfo ul {
+            overflow: hidden;
+        }
+
+        .contactInfo li {
+            float: left;
+            list-style: none;
+            padding: 0 3em;
+        }
+
+        .contactInfo a {
+            font-size: 20px;
+            color: black;
+        }
+
+        /* STYLES FOR THE MAIN CONTAINER */
+        .main {
+            margin: 2em 5em;
+            display: flex;
+            border: 10px solid lightblue;
+            flex-wrap: wrap;
+        }
+
+        .container {
+            height: fit-content;
+            width: 100%;
+            border: 3px solid black;
+            display: inline-flex;
+            margin: 5px 0px;
+        }
+
+        .tops {
+            padding: 50px 0;
+            font-size: 20px;
+            font-weight: bold;
+            width: 200px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .info {
+            width: 100%;
+            margin: 10px;
+
+        }
+
+        /* DATES */
+        .period {
+            display: block;
+            margin: auto;
+            text-align: right;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- PERSONAL INFO  -->
+    <header>
+        <label class="Name">Oluwapamilerin Amuda</label>
+        <hr>
+        <nav class="contactInfo">
+            <ul>
+                <li><a>Phone: (862) 291-4034</a></li>
+                <li><a>Email: amudapamilerin@gmail.com</a></li>
+                <li><a>Address: 318 15th Ave Newark NJ</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <!-- WHOLE BODY OF RESUME  -->
+    <div class="main">
+        <!-- CONTAINER FOR TYPE EDUCATION  -->
+        <div class="container">
+            <div class="tops">EDUCATION</div>
+            <div class="info">
+                <p>
+                <p class="period">
+                    August 2021-May 2025
+                </p>
+                <li>Rensselaer Polytechnic Institute Troy, New York
+                    <i>Bachelor of Science, Computer Science</i>
+                </li>
+                <li>Awarded 2001 Student Leader for exemplary service in student government.</li>
+                <p class="period">
+                    September 2017- June 2021
+                </p>
+                <li>People's Preparatory Charter School - Newark, NJ
+                    High School Diploma.</li>
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- CONTAINER FOR TYPE WORK EXPERIENCE  -->
+            <div class="tops">WORK EXPERIENCE</div>
+            <div class="info">
+                <p>
+                <p class="period">
+                    April 2021- Present
+                </p>
+                <b>Taco Bell</b>
+                <i>Crew Member</i>
+                </p>
+                <li>Taking food and drink orders of customers fast and efficiently.</li>
+                <li>Preparing food and drink that our customers will love and enjoy.</li>
+                <li>Answering questions about menu items and promotions.</li>
+                <li>Taking orders in drive-thru windows and taking inventory.</li>
+            </div>
+        </div>
+
+        <!-- CONTAINER FOR RELATED EXPERIENCE  -->
+        <div class="container">
+            <div class="tops">RELATED EXPERIENCE</div>
+            <div class="info">
+                <p>
+                <p class="period">
+                    October 2020 - May 2021
+                </p>
+                <b>People's Preparatory Charter School</b>
+                <i>Music Department Intern</i>
+                </p>
+                <li>Created and hosted a podcast that discussed issues affecting the school community and society</li>
+                <li>Assist and help with the mentoring of students to better understand and create music</li>
+                <li>Educate students and co-interns on how to use tools and resources used daily</li>
+                <li>Use Soundtrap to create music and beats that will be used daily at People's Prep Charter School</li>
+
+                <p>
+                <p class="period">
+                    October 2019 - May 2020
+                </p>
+                <b>Hanini Group</b>
+                <i>Intern</i>
+                </p>
+                <li>Analyzed the company's ad revenue using Google Analytics to better understand client spending.</li>
+                <li>Worked with CRM, Yardie one, and Google Tag Manager to help ensure the client's information
+                    was safe.</li>
+                <li>Helped with the organization of files and documents regarding the client's information.</li>
+                <li>Improved the organization's ad trafficking through research and networking to better help ad
+                    traffic</li>
+
+                <p>
+                <p class="period">
+                    October 2018 - May 2019
+                </p>
+                <b>Future Fownders</b>
+                <i>Intern</i>
+                </p>
+                <li>Organized an event that helped students choose a better career to create a better future.</li>
+                <li>Devised a plan which helped reduce huge workload and organization of items during a move-out
+                    by half.</li>
+                <li>Reduced supervisor's workload by 11% by handling client communication.</li>
+
+
+                <p>
+                <p class="period">
+                    June 2018 - August 2018
+                </p>
+                <b>Greater Newark Conservancy:</b>
+                <i>Team Member</i>
+                </p>
+                <li>Cared for animals, and cleared weed in the vegetable garden to provide more space for more
+                    plants to grow</li>
+                <li>Taken part and completed seminars intending to furthering my knowledge</li>
+                <li>Taught and engaged visitors in interactive learning that bolstered their learning experience of the
+                    farm life</li>
+
+
+                <p>
+                <p class="period">
+                    February 2020 - May 2021
+                </p>
+                <b>LEADERSHIP ROLES</b>
+                <i>R U Ready For Work Member</i>
+                </p>
+                <li>Learn about FAFSA and the scholarship applications so that we have an idea on what it is</li>
+                <li>Engage in intellectual conversations and lectures on how to graduate from high school and
+                    college</li>
+
+
+                <p>
+                <p class="period">
+                    September 2018 - May 2021
+                </p>
+                <b>Seton Hall Upward Bound Member</b>
+                </p>
+                <li>Engage in seminars about college and ACT and SAT classes to improve raw scores of tests</li>
+                <li>Research ways to motivate and improve the college acceptance rate of African American students</li>
+
+
+                <p>
+                    <b>Rutgers NFTE Biz-Camp graduate</b>
+                    <i>Skills</i>
+                </p>
+                <li>Bilingual: English and Yoruba</li>
+                <li>Yardi one Certified</li>
+                <li>Customer Relationship Management certified</li>
+                <li>Google, Analytics, Google sheets, Google Docs and slides</li>
+                <li>Soundtrap</li>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
