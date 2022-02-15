@@ -1,0 +1,121 @@
+<atom version="1.0">
+    <feed>
+        <title>Games</title>
+        <subtitle>Returnal</subtitle>
+        <link href="https://housemarque.com/games/returnal" />
+        <id>1001</id>
+        <updated>10 February 2022, at 23:51</updated>
+
+        <author>
+            <name>Crecente</name>
+            <email>Crecente@gmail.com</email>
+        </author>
+
+        <entry>
+            <title>Housemarque</title>
+            <link href="https://housemarque.com/games/returnal" />
+            <id>1001</id>
+            <updated>10 February 2022, at 23:51</updated>
+            <summary> After crash-landing on this shape-shifting world, Selene must search 
+        through the barren landscape of an ancient civilization for her escape. 
+        Isolated and alone, she finds herself fighting tooth and nail for survival. 
+        Again and again, she's defeated forced to restart her journey every time she dies.</summary>
+        </entry>
+
+
+        <title>Sony</title>
+        <subtitle>Bungie</subtitle>
+        <link href="https://www.theverge.com/2022/2/1/22912075/sony-bungie-acquisition-fortnite-playstation-destiny-live-service-games" />
+        <id>1002</id>
+        <updated> 12 February 2022, at 00:37</updated>
+
+        <author>
+            <name>Bishop</name>
+            <email>Bishop@gmail.com</email>
+        </author>
+
+        <entry>
+            <title>The Verge</title>
+            <link href="https://www.theverge.com/2022/2/1/22912075/sony-bungie-acquisition-fortnite-playstation-destiny-live-service-games" />
+            <id>1002</id>
+            <updated>12 February 2022, at 00:37</updated>
+            <summary>Microsoft has Minecraft, Epic Games has Fortnite, and Sony now has Destiny. 
+        In a $3.6 billion deal, Sony is acquiring Bungie, the game studio famous for 
+        creating the Halo and Destiny universes. It's a big deal, in a month already full 
+        of massive deals. It's also backed by some equally big promises from Bungie 
+        about its independence, the future of Destiny, and commitments to multiplatform games.</summary>
+        </entry>
+
+
+        <title>Game</title>
+        <subtitle>Martha Is Dead</subtitle>
+        <link href="https://www.forbes.com/sites/paultassi/2022/02/12/why-playstation-is-censoring-horror-game-martha-is-dead/?sh=1cd744685457" />
+        <id>1003</id>
+        <updated>11 February 2022, at 20:51</updated>
+
+        <author>
+            <name>Komatsu</name>
+            <email>Komatsu@gmail.com</email>
+        </author>
+
+        <entry>
+            <title>Forbes</title>
+            <link href="https://www.forbes.com/sites/paultassi/2022/02/12/why-playstation-is-censoring-horror-game-martha-is-dead/?sh=1cd744685457" />
+            <id>1003</id>
+            <updated>11 February 2022, at 20:51</updated>
+            <summary>They say that all press is good press, and case in point, I'd never even 
+        heard of the game Martha is Dead until it started making headlines for Sony 
+        demanding that parts of it be cut in order for release on PlayStation.</summary>
+        </entry>
+
+
+        <title>Anime</title>
+        <subtitle>Attack on titan</subtitle>
+        <link href="https://www.polygon.com/22924079/anime-awards-winners-list-2022-crunchyroll" />
+        <id>1004</id>
+        <updated>3 February 2022, at 15:46</updated>
+
+        <author>
+            <name>Thompson</name>
+            <email>Thompson@gmail.com</email>
+        </author>
+
+        <entry>
+            <title>Polygon</title>
+            <link href="https://www.polygon.com/22924079/anime-awards-winners-list-2022-crunchyroll" />
+            <id>1004</id>
+            <updated>3 February 2022, at 15:46</updated>
+            <summary>Crunchyroll has announced the winners of its sixth annual Anime Awards, 
+        which honor the anime's best shows, voice actors, animators, and creators of 
+        the past year. Attack on Titan Final Season Part 1 took home the prize 
+        for Anime of the Year this time around and secured four wins in total, including 
+        Best Antagonist, for Eren Jaeger, Best Opening Sequence, and Best Japanese Voice 
+        Acting Performance.</summary>
+        </entry>
+
+
+        <title>News</title>
+        <subtitle>Cowboy Bebop</subtitle>
+        <link href="https://www.hollywoodreporter.com/tv/tv-news/cowboy-bebop-canceled-netflix-1235060256/" />
+        <id>1005</id>
+        <updated>10 February 2022, at 23:38</updated>
+
+        <author>
+            <name>Crystalyn</name>
+            <email>Crystalyn@gmail.com</email>
+        </author>
+
+        <entry>
+            <title>Hollywood Reporter</title>
+            <link href="https://www.hollywoodreporter.com/tv/tv-news/cowboy-bebop-canceled-netflix-1235060256/" />
+            <id>1005</id>
+            <updated>10 February 2022, at 23:38</updated>
+            <summary> Insiders pointed out that Netflix's renewal rate for scripted series 
+        that have two or more seasons stands at 60 percent, in line with industry 
+        averages, and, like all Netflix renewal verdicts, the decision was made by 
+        balancing the show's viewership and cost. The streamer also prides itself 
+        on taking big swings on projects like Cowboy Bebop and has many other 
+        genre shows on the air and in the works.</summary>
+        </entry>
+    </feed>
+</atom>
