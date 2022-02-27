@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lab 5</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="lab5.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="lab5.js"></script>
+</head>
+
+<body>
+    <h2>Intro To IT - Lab 5</h1>
+    <h4>Oluwapamilerin Amuda</h4>
+    <div class="container">
+        <form action="" name="myForm" onsubmit="return validateForm()" method="post">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>First Name :</label>
+                <div class="formdesign" id="name">
+                    <input type="text" name="fname" required>
+                </div>
+
+                <label>Last Name :</label>
+                <div class="formdesign" id="lastname">
+                    <input type="text" name="lname" required>
+                </div>
+
+                <label>Title :</label>
+                <div class="formdesign" id="title">
+                    <input type="text" name="ftitle" required>
+                </div>
+
+                <label> Organization :</label>
+                <div class="formdesign" id="org">
+                    <input type="text" name="forg" required>
+                </div>
+
+                <label>Nick Name :</label>
+                <div class="formdesign" id="nickname">
+                    <input type="text" name="nname" required>
+                </div>
+
+                <label>Comments :</label>
+                <div class="formdesign" id="feedback">
+                    <textarea name="ffeedback" id="feedback" cols="30" rows="3"
+                        placeholder="Please Enter Your Comments Here"></textarea>
+                </div>
+
+                <input class="but" id="submit" type="submit" onclick='success()'>
+            </fieldset>
+        </form>
+    </div>
+    <button class="but" id="info" onclick='information()'>Save</button>
+</body>
+
+<script src="lab5.js"></script>
+
+</html>
