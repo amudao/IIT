@@ -1,0 +1,13 @@
+Lab 7 - jQuery
+
+Overall quality of code 		    : 2
+Question 1 - set name            	: 2
+Question 2 - Show & Hide text 		: 2
+Question 3 - Add/remove class red 	: 2
+Question 4 - Toggle                 : 2
+
+Poor indentation/failed validation - will cause a point deduction
+Not posting to LMS and AFS will cause a point deduction
+
+--------------------------------------------------------------------
+TOTAL 10.0 max
