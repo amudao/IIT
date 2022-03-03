@@ -32,7 +32,7 @@ $(document).ready(function() {
    $("#hideText").click(function() {
       setTimeout(function() {
           $("p:not(:first)").fadeOut(0); 
-      },600);
+      },400);
 });
 $("#showText").click(function() {
       setTimeout(function() {
