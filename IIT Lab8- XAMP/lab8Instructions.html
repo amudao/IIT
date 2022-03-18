@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <title>Lab 8: Security, Intro ITWS</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="http://www.rpi.edu/favicon.ico" type="image/ico" rel="icon"/>
+    <link href="http://www.rpi.edu/favicon.ico" type="image/ico" rel="shortcut icon"/>
+    <style type="text/css">
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #content {
+        margin: 0 auto;
+        padding: 3em 2em;
+        max-width: 800px;
+      }
+      h1 {
+        font-size: 1.5em;
+        margin: 0;
+      }
+      h2 {
+        font-size: 1.1em;
+        margin-top: 0;
+      }
+      h3 {
+        font-size: 1em;
+        margin-top: 0;
+      }
+      ol li {
+        margin-bottom: 1em;
+      }
+      ul li {
+        margin-bottom: 1em;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="content">
+      <h1>Lab 8: Security</h1>
+      <h2>Intro ITWS</h2>
+
+      <h3>Secure your LAMP stack and try some XSS</h3>
+
+      <p>
+        We will do most of this together in class.  You will need to package
+        up the parts of this lab into your "lab8" folder and zip up your iit folder for upload.
+      </p>
+
+      <ul>
+        <li>Download the lab from LMS.</li>
+        <li>Create a branch for this lab named lab8 (or similar)</li>
+        <li>
+           Download XAMPP from <a href="https://www.apachefriends.org/index.html">Apache Friends</a>
+        </li>
+        <li>
+          Guidelines:
+          <ol>
+            <li>
+              <strong>Install &amp; check out your XAMPP environment</strong> <em>(4 points)</em>
+              <ul>
+                <li>With XAMPP running on PC, visit <a href="http://localhost">http://localhost/</a></li>
+                <li>With XAMPP running on Mac, visit    
+                  <a href="http://localhost">http://localhost/</a> or <a href="http://localhost:8080/">http://localhost:8080</a>
+                </li>
+                <ul>
+                    <li>Checkout the FAQs</li>
+                    <li>Checkout PHPInfo - printout the page as a pdf named PHPInfo.pdf and place in your lab 8 folder</li>
+                      <!-- <li>
+                        With XAMPP running, visit <a href="http://localhost/dashboard/docs/reset-mysql-password.html">
+                            http://localhost/dashboard/docs/reset-mysql-password.html</a> and follow the instructions to
+                            change the MySQL/MariaDB admin user root password (this will also secure PhpMyAdmin) take a screenshot of your output named <strong>xampp-secure.gif</strong>
+                          </li>
+                          <li><strong>Put the password(s) somewhere safe (e.g. a password manager) and/or remember them.</strong></li>
+                      </li> -->
+                    <li>Checkout PHPMyAdmin - take a screenshot of the page once securely logged-in named PHPMyAdmin.gif and place in your lab 8 folder</li>
+                    <li>Checkout the other documentation</li>
+                </ul>
+                <li>PHPMyAdmin may give you an error about logging in without a password.
+                  <p>if it does, we need to edit the config.inc.php file in the phpMyAdmin folder of the webserver.</p>
+                  <p>for the pc, the file is located in C:\xampp\phpMyAdmin.</p>
+                  <p>For the Mac - it will depend on how you have installed your Apache Server.  You will need to review the documentation for your installation or see one of us</p>
+                        <li>
+                          When this is done, take the PHPMyAdmin screenshot and save the screenshots/outputs to the lab8 directory
+                        </li>
+                <!-- <p>for the Mac using XAMPP with the VM its a bit more complicated. (Thanks Steve J.!)
+                  <ul>
+                <li>From the XAMPP control panel, open up a terminal session from the general tab</li>
+                <li>navigate to /opt/lampp/phpmyadmin</li>
+                <li>type: chmod 777 config.inc.php</li>
+                <li>From the Ccontrol panel, mount and Explore from the Volumes tab - this will open finder in the lampp folder</li>
+                <li>Now, edit the config.inc.php file in the phpMyAdmin folder</li>
+                <li>Back in the terminal enter: chmod 644 config.inc.php</li>
+                <li>refresh your localhost:8080/phpmyadmin page</li></ul> -->
+              </p>
+              </li>
+              </ul>
+              <li><strong>Setup your localhost iit folder:</strong></li>
+              <ul>
+                <li>Open the htdocs folder of your web server</li>
+                <li>Copy your local repo iit directory to the htdocs folder (ie lampp/htdocs/iit)</li>
+                <li>Create a new lab 8 folder under iit and place the lab files from LMS into it</li>
+                <li>
+                  Open lab8.html in a browser.  At the top of the document, you
+                  will see a link to xampp-secure.gif.
+                  <!-- Confirm that this link works for your file. (If it doesn't, fix it.) -->
+                   Replace this link with a link to your file. Add links to the other file&lpar;s&rpar;.
+                </li>
+              </ul>
+
+            </li>
+            <li>
+              <strong>Try some simple XSS</strong> <em>(6 points)</em>
+              <ul>
+                <li>
+                  lab8.html contains a form and some javascript (in lab8.js).
+                  When the form is submitted, the contents of the "comments"
+                  field are loaded back onto the page (in the pink box below
+                  the form) <em>without output escaping</em>.  Try your hand
+                  at some simple XSS attacks using the following techniques.
+                </li>
+                <li>Put your name in the &lt;h3&gt; tag</li>
+                <li>
+                  Copy the following text to the
+                  comments field and press submit:
+                  <textarea rows="1" cols="80">Hey there <script>alert("Hi there");</script></textarea>
+                </li>
+                <li>
+                  Now try the following text in the comments field:
+                  <textarea rows="1" cols="80">We got your cookie <script>alert(document.cookie);</script></textarea>
+                </li>
+                <li>
+                  Create a script tag (like those above) in the comments field to make the browser jump to
+                  http://www.rpi.edu when the user clicks "submit" (look up "window.location" for help).
+                </li>
+                <li>
+                  When you are successful, modify the file lab8.html and paste the
+                  successful code into the body of the textarea (between
+                  &lt;textarea ...&gt; and &lt;/textarea&gt;) so that the
+                  code can be seen when the page is reloaded in the browser.
+                </li>
+                <li>Place the successful code into your README file</li>
+                <li>In your README file discuss your understanding of what is happening when inserting the text into the comments area.</li>
+                <li>
+                  Save the lab8.html file.
+                </li>
+               </ul>
+               <li>Submission:
+                  <ul>
+                     <li>Copy your lab 8 folder from your htdocs/... folder to your local repo</li>
+                     <li>Commit your changes to your repo and merge your branch</li>
+                     <li>Zip up the iit folder from your local repo and submit to LMS</li>
+                  </ul>
+             </li>
+            </li>
+          </ol>
+        </li>
+        <li>
+          <strong>This lab is due by end of next class day.</strong>
+        </li>
+      </ul>
+
+
+    </div>
+  </body>
+  </html>
