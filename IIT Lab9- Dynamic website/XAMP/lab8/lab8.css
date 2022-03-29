@@ -1,0 +1,35 @@
+/* Lab 8 CSS File */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#bodyBlock {
+  width: 700px;
+  margin: auto;
+}
+#output {
+  margin: 1em 0;
+  color: black;
+  background-color: #fee;
+  padding: 1em;
+  border: 1px solid #ddd;
+}
+fieldset {
+  padding-top: 1em;
+}
+.field {
+  width: 120px;
+  margin: 0 0.5em 0.5em 0;
+  float: left;
+  clear: left;
+  text-align: right;
+}
+.value {
+  margin: 0 0 0.5em 0;
+}
+#submitButton {
+  float: right;
+}
+.part1 {
+  margin-left: 1em;
+}

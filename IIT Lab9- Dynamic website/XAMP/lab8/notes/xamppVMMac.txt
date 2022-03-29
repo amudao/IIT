@@ -1,0 +1,17 @@
+After setting the mysql pw
+Users may not be able to access phpmyadmin
+
+The password needs to be entered into config.inc.php
+
+For the Mac VM 
+- open a VM terminal
+- cd /opt/lampp/phpmyadmin
+- chmod 777 config.inc.php
+
+- navigate to the file using the browse option on the file->mount option on the bitnami server panel
+- edit using any editor
+
+-back in terminal 
+-chmod 744 config.inc.php
+
+NOTE: for reinstall or ‘Do over’ : shut down the vm and then delete the ~/.bitnami folder data
