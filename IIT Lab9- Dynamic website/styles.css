@@ -1,0 +1,82 @@
+/* MAIN */
+body {
+    background-image:url(Resources/Background/star-wars-backgrounds-16.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+/* INDEX PAGE CSS */
+hr {
+    height: 1px;
+    background-color: lightblue;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects {
+    /* border: 2px solid red; */
+    margin: 2em 3em;
+    padding: 1em 1em;
+    width: auto;
+}
+
+.container a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.container button {
+    background-color: lightblue;
+    border: 3px solid black;
+}
+
+
+/* PROJECT PAGE CSS */
+p {
+    display: block;
+    font-size: 25px;
+    /* border: 2px solid black; */
+}
+
+hr {
+    height: 1px;
+    background-color: lightblue;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.projects {
+    border: 4px solid black;
+    margin: 1em 3em;
+    padding: 1em 1em;
+    width: 80em;
+    justify-content: center;
+}
+
+.container a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.container button {
+    background-color: lightblue;
+    border: 3px solid black;
+}
+
+
+
+
+
+
