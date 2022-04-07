@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Lab 10: Databases and SQL, Intro ITWS</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link href="http://www.rpi.edu/favicon.ico" type="image/ico" rel="icon"/>
+    <link href="http://www.rpi.edu/favicon.ico" type="image/ico" rel="shortcut icon"/>
+    <style type="text/css">
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      #content {
+        margin: 0 auto;
+        padding: 3em 2em;
+        max-width: 800px;
+      }
+      h1 {
+        font-size: 1.5em;
+        margin: 0;
+      }
+      h2 {
+        font-size: 1.1em;
+        margin-top: 0;
+      }
+      h3 {
+        font-size: 1em;
+        margin-top: 0;
+      }
+      ol li {
+        margin-bottom: 1em;
+      }
+      ul li {
+        margin-bottom: 1em;
+      }
+      em {
+        color: green;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="content">
+      <h1>Lab 10: Databases &amp; SQL</h1>
+      <h2>Intro ITWS</h2>
+
+      <h3>Import, modify, and export a database</h3>
+
+      <p>
+        We will do most of this together in class.
+      </p>
+
+      <ul>
+        <li>I have provided you with an SQL file with the commands to create an actors table and insert some actors.  I have also provided you with a PHP program which has a menu with two tabs.  One will add/remove/display actors, however there is no table for the actors.  The other is to do the same for movies, and while I have given you the table, I have not given you the code for the movies.php program.</li>
+        <li>In this lab, you are going to complete the program so that we can Add/Remove and display both movies and actors.</li>
+        <li>Create a Lab 10 issue and branch to your repos</li>
+        <li>
+          Download the lab: <em>ITWS1100-LAB10.zip</em> from LMS
+        </li>
+        <li>
+          Guidelines:
+          <ol>
+            <li>
+              <ul>
+                <li>Add a lab10 folder to your /xampp/htdocs/iit/ directory (or its equiv)</li>
+                <li>NOTE: You must use your LAMP servers to complete this lab</li>
+                <li>unzip the lab10 zip file from LMS into your new lab10 folder in your iit directory</li>
+                <li>Make sure you start your XAMPP server and your database server</li>
+                <li>Using <a href="http://localhost/phpmyadmin" target="_blank">phpMyAdmin</a>, (<a href="http://localhost:8080/phpmyadmin" target="_blank">Mac VM</a>), create a new database named "iit", setting the collation to utf8_general_ci</li>
+                <li>In phpMyAdmin with the "iit" database selected, import lab10/iit-lab10start.sql</li>
+              </ul>
+            </li>
+            <li>
+              Using the create table commands in the <em>iit-lab10start.sql</em> file as guide,
+              create a new table named "actors" in which to store character
+              names of the roles played by our actors.  Include four fields, an
+              autoincrement primary key, first, last name and a date of birth (for the characters). <br/><em>Note: Check the code for the proper naming for the fields.</em>
+            </li>
+            <li>Using phpMyAdmin, add a few actors that you like to the table</li>
+            <li>
+              Using the insert statements from the <em>iit-lab10start.sql</em> file as a guide,
+              or using the insert statement from the lecture slides, add at least five new actors - not mine - to the actors table.
+            </li>
+            <li>
+              Using the format of the dates in the actors table as a guide,
+              query the database for all actors born on or after 1960.  (Remember to put the date string in single quotes.)  Output your results to a CSV file using the "Export" tab in phpMyAdmin after you've made the query.  Export the file as "CSV for MS Excel".  Name the CSV file "actors.csv" and save it in your lab10/ folder.
+            </li>
+            <li>
+               Using the examples we went over in class from iitajax, create a relationship table for movies and actors, and associate some of your actors to their movies.
+            </li>
+            <li>
+               Using the examples we went over in class, complete the program to list out movies as the example did for actors.
+            </li>
+            <li>
+               For extra credit, add a panel (tab) to the program to list out the movies and their corresponding actors.
+            </li>
+            <li>
+              Select "iit" in the left column to select the database.
+              Using the Export tab in phpMyAdmin, export the SQL schema by
+              selecting the SQL radio button in the export box (left column).
+              Save it as iit.sql in your lab10 folder.  <em>Check this file to
+              make sure you have the full schema (not, for example, the
+              last table you looked at).</em>
+            </li>
+            <li>
+              When you are done, 
+              <ul>
+                 <li>commit and push your changes to your repo</li>
+                 <li>Zip up your iit directory and rename it to <em>lab10-YourName-yourRCSID.zip</em></li>
+                 <li>submit your zip file to LMS</li>
+              </ul>
+            </li>
+            <li><strong>This lab is due by midnight on date shown in LMS</strong></li>
+          </ol>
+        </li>
+      </ul>
+
+
+    </div>
+  </body>
+</html>

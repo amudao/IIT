@@ -1,0 +1,13 @@
+Lab 10 - SQL
+
+
+Q2: /2 "characters" table created
+Q3: /2 new actors inserted into "actors" table
+Q4: /2 CSV file of all actors on or after 1965
+Q5: /2 movie actors table created and relations added
+Q6: /2 Movies list tab
+Q7: /3 (potential additional points (max 10)) for showing the relations on a new tab
+
+TOTAL /10.0
+
+
