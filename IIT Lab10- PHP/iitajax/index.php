@@ -22,7 +22,7 @@
   
   /* Create a new database connection object, passing in the host, username,
      password, and database to use. The "@" suppresses errors. */
-  @ $db = new mysqli('localhost', 'root', 'root', 'iit');
+  @ $db = new mysqli('localhost', 'root', '', 'iit');
   
   if ($db->connect_error) {
     echo '<div class="messages">Could not connect to the database. Error: ';
@@ -173,4 +173,3 @@
 <?php include('includes/foot.inc.php'); 
   // footer info and closing tags
 ?>
-
