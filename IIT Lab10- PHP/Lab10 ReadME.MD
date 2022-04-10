@@ -27,7 +27,7 @@ Lab 10 involves using the information already provided to us to write code that 
 
 
 ## Overall feeling of the lab
-
+Had fun with lab 10. Understanding how php and sql database work together was pretty exciting
 
 
 
